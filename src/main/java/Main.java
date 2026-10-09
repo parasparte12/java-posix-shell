@@ -9,7 +9,14 @@ public class Main {
          Scanner sc=new Scanner(System.in);
         // sc.nextLine();
          // Stage 2
-         String input=sc.nextLine();
-         System.out.println(input +": command not found");
+        //  String input=sc.nextLine();
+        //  System.out.println(input +": command not found");
+
+        // Stage 3
+        while(true){
+            String input=sc.nextLine();
+            System.out.println(input +": command not found");
+            System.out.print("$");
+        }
     }
 }
