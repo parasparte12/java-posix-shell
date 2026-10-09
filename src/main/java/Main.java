@@ -14,9 +14,16 @@ public class Main {
 
         // Stage 3
         while(true){
+            
             String input=sc.nextLine();
+             if(input.equals("exit")){
+                break;
+            }
             System.out.println(input +": command not found");
             System.out.print("$ ");
+           
+            
+           
         }
     }
 }
