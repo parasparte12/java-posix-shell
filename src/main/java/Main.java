@@ -19,14 +19,15 @@ public class Main {
              if(input.equals("exit")){
                 break;
             }
-            else if(input.startsWith("echo")){
+            else if(input.startsWith("echo ")){
                 System.out.println(input.substring(5)); // here echo is upto 3 index and space is 4th index so we start from 5th index so after echo we have to print .
 
             }else{
             System.out.println(input +": command not found");
 
+            
             }
-                     System.out.print("$ ");
+                     
 
             
            
