@@ -16,6 +16,7 @@ public class Main {
         while(true){
             
             String input=sc.nextLine();
+            // this if statement is stage 4 task
              if(input.equals("exit")){
                 break;
             }
