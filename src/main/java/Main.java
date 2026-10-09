@@ -5,7 +5,11 @@ public class Main {
         // TODO: Uncomment the code below to pass the first stage
          System.out.print("$ ");
 
+
          Scanner sc=new Scanner(System.in);
-         sc.nextLine();
+        // sc.nextLine();
+         // Stage 2
+         String input=sc.nextLine();
+         System.out.println(input +": command not found");
     }
 }
