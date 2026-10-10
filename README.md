@@ -101,24 +101,6 @@ codecrafters-shell-java/
 
 ---
 
-## 🧠 How It Works
-
-```mermaid
-flowchart LR
-    A[Print '$ ' prompt] --> B[Read a line]
-    B --> C{Which command?}
-    C -- exit --> D[Stop the shell]
-    C -- echo ... --> E[Print the arguments]
-    C -- anything else --> F[Print 'command not found']
-    E --> A
-    F --> A
-```
-
-The shell runs in an endless loop: it shows a prompt, reads what you type,
-decides what to do with it, prints the result, then starts again.
-
----
-
 <div align="center">
 
 Built with ☕ by **[Paras](https://app.codecrafters.io/users/parasparte12?r=2qF)** as part of the
